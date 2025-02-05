@@ -8,11 +8,11 @@ from selenium.webdriver.common.keys import Keys
 import time
 # Set up Chrome options
 chrome_options = Options()
-chrome_options.add_argument(r"user-data-dir=C:/Users/Ruby Kumari/AppData/Local/Google/Chrome/User Data")
+chrome_options.add_argument(r"")
 chrome_options.add_argument(r"profile-directory=Profile 4")
 
 # Set up the ChromeDriver service
-service = Service(r'C:/Users/Ruby Kumari/Desktop/chromedriver.exe')
+service = Service(r'')
 
 # Initialize the ChromeDriver with options
 driver = webdriver.Chrome(service=service, options=chrome_options)
